@@ -1,11 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>my web page</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tori's</title>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/css/style.css" />
 </head>
 <body>
-    <h1>Hello World</h1>
+
+  <!-- Background Glow -->
+  <div class="bg-glow glow1"></div>
+  <div class="bg-glow glow2"></div>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">ORCA.</div>
+
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Projects</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+
+    <div class="hero-left">
+      <p class="tag">CREATIVE DEVELOPER</p>
+
+      <h1>
+        Building <span>3D</span><br>
+        Animated Digital<br>
+        Experiences
+      </h1>
+
+      <p class="desc">
+        Frontend developer focused on futuristic UI,
+        immersive animations, and interactive web experiences.
+      </p>
+
+      <div class="buttons">
+        <button class="primary-btn">View Projects</button>
+        <button class="secondary-btn">Contact Me</button>
+      </div>
+    </div>
+
+    <!-- 3D Card -->
+    <div class="hero-right">
+
+      <div class="card">
+        <div class="card-glow"></div>
+
+        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1200&auto=format&fit=crop"
+          alt="profile">
+
+        <div class="card-content">
+          <h3>ORCA AQUA</h3>
+          <p>Frontend / UI Designer</p>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <script src="/js/script.js"></script>
 </body>
 </html>
