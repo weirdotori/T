@@ -1,15 +1,6 @@
-const card = document.querySelector(".card");
+import { animate } from 'animejs';
 
-document.addEventListener("mousemove", (e) => {
-
-  let x = (window.innerWidth / 2 - e.pageX) / 25;
-  let y = (window.innerHeight / 2 - e.pageY) / 25;
-
-  card.style.transform =
-    `rotateY(${x}deg) rotateX(${-y}deg)`;
-});
-
-card.addEventListener("mouseleave", () => {
-  card.style.transform =
-    `rotateY(0deg) rotateX(0deg)`;
+animate('.box', {
+    x: 400,
+    duration: 1000
 });
